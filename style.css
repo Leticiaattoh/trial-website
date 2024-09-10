@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+
+}
+
+
+.flex-container {
+    display: flex;
+    gap: 15px;
+
+
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+.flex-container {
+    list-style-type: none;
+    margin-left: 50%;
+    margin-top: 20%;
+
+}
+
+
+#header-pic {
+    background-image: url(./assets/css/image\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.button-book {
+    background-color: #009DFF;
+    width: 100%;
+    font-size: large;
+    color: white;
+    border: none;
+    text-align: right;
+    padding: 12px 26px;
+    border: 1px solid transparent;
+    color: #fff;
+    /* margin-left: 40%; */
+    margin-top: 20%;
+    margin-right: -20% ;
+}
+
+
+.container1 {
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero-p {
+    font-size: 150%;
+}
+
+.border1 {
+    border: solid;
+    border-width: 1px;
+    color: white;
+    background-color: #B2B9B4;
+}
+
+/* .fa-facebook {
+    color: white;
+    margin-right: 10px; */
+
+.fa-twitter {
+    color: white;
+    padding-right: 10px;
+}
+
+.fa-facebook {
+    color: white;
+    padding-right: 10px;
+}
+
+.fa-instagram {
+
+    color: white;
+    padding-right: 10px;
+}
+
+.social-button {
+    text-align: right;
+    margin-left: 150px;
+    padding-left: 160px;
+    margin-top: 50px;
+    /* padding: 5px; */
+    justify-content: left;
+
+
+}
+
+.section-under-hero {
+    width: 100%;
+    display: flex;
+    /* margin-left: 40%; */
+    gap: 2rem;
+    margin: auto;
+    padding: 4rem;
+    
+
+   
+    
+    
+}
+
+.image-container {
+   
+    margin-bottom: 20%;
+   
+    /* vertical-align: left; */
+    border-style: none;
+   
+   
+    display: flex;
+    gap: 1rem;
+    height: 50%;
+    width: 40%;
+
+
+ 
+}
+
+.text-container {
+   font-size: 16px;
+  margin-top: 10%;
+    width: 50%;
+ 
+
+    
+}
+.img1 {
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.img2 {
+    width: 70%;
+    height: 70%;
+}
+
+.text-container p {
+    line-height: 1.8;
+}
+
+.section-under-hero h4 {
+    color:#009DFF
+}
+
