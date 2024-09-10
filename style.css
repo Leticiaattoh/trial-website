@@ -28,7 +28,7 @@ nav {
 
 .flex-container {
     list-style-type: none;
-    margin-left: 50%;
+    margin-left: 30%;
     margin-top: 20%;
 
 }
@@ -176,4 +176,15 @@ nav {
 .section-under-hero h4 {
     color:#009DFF
 }
+
+
+.text-align {
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.text-align h4{
+    color: #009DFF;
+}
+
 
