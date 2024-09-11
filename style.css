@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -28,7 +28,7 @@ nav {
 
 .flex-container {
     list-style-type: none;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 20%;
 
 }
@@ -54,7 +54,7 @@ nav {
     color: #fff;
     /* margin-left: 40%; */
     margin-top: 20%;
-    margin-right: -20% ;
+    margin-right: -20%;
 }
 
 
@@ -96,6 +96,7 @@ nav {
     padding-right: 10px;
 }
 
+
 .fa-facebook {
     color: white;
     padding-right: 10px;
@@ -125,38 +126,37 @@ nav {
     gap: 2rem;
     margin: auto;
     padding: 4rem;
-    
 
-   
-    
-    
+
+
+
+
 }
 
 .image-container {
-   
+
     margin-bottom: 20%;
-   
-    /* vertical-align: left; */
     border-style: none;
-   
-   
+
+
     display: flex;
     gap: 1rem;
     height: 50%;
-    width: 40%;
+    width: 30%;
 
 
- 
+
 }
 
 .text-container {
-   font-size: 16px;
-  margin-top: 10%;
+    font-size: 16px;
+    margin-top: 10%;
     width: 50%;
- 
 
-    
+
+
 }
+
 .img1 {
     width: 70%;
     height: 70%;
@@ -174,17 +174,44 @@ nav {
 }
 
 .section-under-hero h4 {
-    color:#009DFF
+    color: #009DFF
 }
 
 
 .text-align {
     text-align: center;
     margin-bottom: 5%;
-    
+
 }
-.text-align h4{
+
+.text-align h4 {
     color: #009DFF;
 }
 
 
+.flex-container2 {
+    display: flex;
+    width: 29vw;
+    gap: 2rem;
+    margin-left: 4%;
+
+
+}
+
+.text2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-size: 16px;
+    color: #4D4D4D;
+    line-height: 28px;
+    position: relative;
+    z-index: 9;
+    text-align: start;
+    margin-left: 4%;
+}
+
+.button-2 {
+    
+}
