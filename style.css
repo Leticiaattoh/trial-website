@@ -6,6 +6,7 @@
 
 nav {
     display: flex;
+    /* position: fixed; */
 
 }
 
@@ -40,6 +41,7 @@ nav {
     background-position: center;
     background-size: cover;
     height: 80vh;
+    
 }
 
 .button-book {
@@ -87,9 +89,6 @@ nav {
     background-color: #B2B9B4;
 }
 
-/* .fa-facebook {
-    color: white;
-    margin-right: 10px; */
 
 .fa-twitter {
     color: white;
@@ -127,10 +126,6 @@ nav {
     margin: auto;
     padding: 4rem;
 
-
-
-
-
 }
 
 .image-container {
@@ -143,7 +138,6 @@ nav {
     gap: 1rem;
     height: 50%;
     width: 30%;
-
 
 
 }
@@ -184,8 +178,8 @@ nav {
 
 }
 
-.text-align h4 {
-    color: #009DFF;
+.blue1 {
+    color: #009DFF; 
 }
 
 
@@ -212,6 +206,111 @@ nav {
     margin-left: 4%;
 }
 
-.button-2 {
+/* .button-2 { */
+    /* border-style: solid; */
+    /* border-color: black; */
+    
+/* } */
+
+
+.button-book2 {
+    background-color: #009DFF;
+    width: 50%;
+    font-size: large;
+    color: white;
+    border: none;
+    text-align: left;
+    padding: 12px 26px;
+    border: 1px solid transparent;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.second-bg {
+    background-image: url(./assets/css/images_12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
     
 }
+
+.container2 {
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    font-size: xx-large;
+    padding-top: 10%;
+    padding-right: 15%;
+}
+
+.room-pics {
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+width: 100%;
+padding-top: 5%;
+}
+
+.room-pic1 {
+    /* background-image: url(./assets/css/image_18.jpg); */
+    /* height: 80%; */
+    /* width: 25%; */   
+
+}
+.room-pic2 {
+    /* background-image: url(./assets/css/image_17.jpg); */
+
+}
+
+.room-pics3 {
+    /* background-image: url(./assets/css/image_14.jpg); */
+
+}
+
+.room-pic4 {
+    /* background-image: url(./assets/css/image_13.jpg); */
+
+}
+
+/* .room-pics-text { */
+    /* margin-top: 10%; */
+/* } */
+    
+
+.offer{
+    color: #009DFF;
+    padding-top: 10%;
+    text-align: center;
+
+ }
+
+ .offer2 {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 100;
+ }
+
+ .before-footer {
+    border: solid 2px black;
+    height: 50%;
+    width: 60vw;
+    margin-left: 20%;
+    border-radius: 5px;
+    line-height: 7.0;
+    display: flex;
+    gap: 50%;
+
+ }
+
+ .before-footer p {
+    margin-left: 10%;
+
+ }
+
+ /* .border-footer button { * make button blue/
+    
+ }
