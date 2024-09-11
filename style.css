@@ -36,12 +36,12 @@ nav {
 
 
 #header-pic {
-    background-image: url(./assets/css/image\ 3.jpg);
+    background: url(./assets/css/image\ 3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 80vh;
-    
+
 }
 
 .button-book {
@@ -86,7 +86,15 @@ nav {
     border: solid;
     border-width: 1px;
     color: white;
-    background-color: #B2B9B4;
+    background-color: transparent;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 20%;
+
 }
 
 
@@ -179,7 +187,7 @@ nav {
 }
 
 .blue1 {
-    color: #009DFF; 
+    color: #009DFF;
 }
 
 
@@ -207,9 +215,9 @@ nav {
 }
 
 /* .button-2 { */
-    /* border-style: solid; */
-    /* border-color: black; */
-    
+/* border-style: solid; */
+/* border-color: black; */
+
 /* } */
 
 
@@ -232,7 +240,7 @@ nav {
     background-position: center;
     background-size: cover;
     height: 80vh;
-    
+
 }
 
 .container2 {
@@ -247,20 +255,21 @@ nav {
 
 .room-pics {
     display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-width: 100%;
-padding-top: 5%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    padding-top: 5%;
 }
 
 .room-pic1 {
     /* background-image: url(./assets/css/image_18.jpg); */
     /* height: 80%; */
-    /* width: 25%; */   
+    /* width: 25%; */
 
 }
+
 .room-pic2 {
     /* background-image: url(./assets/css/image_17.jpg); */
 
@@ -277,40 +286,62 @@ padding-top: 5%;
 }
 
 /* .room-pics-text { */
-    /* margin-top: 10%; */
+/* margin-top: 10%; */
 /* } */
-    
 
-.offer{
+
+.offer {
     color: #009DFF;
     padding-top: 10%;
     text-align: center;
 
- }
+}
 
- .offer2 {
+.offer2 {
     text-align: center;
     margin-top: 2%;
     font-weight: 100;
- }
+}
 
- .before-footer {
+.before-footer {
     border: solid 2px black;
-    height: 50%;
+    /* height: 50%; */
     width: 60vw;
     margin-left: 20%;
     border-radius: 5px;
-    line-height: 7.0;
     display: flex;
     gap: 50%;
 
- }
+}
 
- .before-footer p {
+.before-footer p {
     margin-left: 10%;
 
- }
 
- /* .border-footer button { * make button blue/
+}
+
+.button-footer {
+    /* border: 2px solid blue; */
+    /* width: 10%; */
+    border-radius: 5px;
+    /* justify-content: stretch; */
+    background-color: #009DFF;
+    width: 100%;
+    font-size: large;
+    color: white;
+    border: none;
+    text-align: right;
+    padding: 12px 26px;
+    border: 1px solid transparent;
+    color: #fff;
+    /* margin-left: 40%; */
+    /* margin-top: 20%; */
+    margin-right: 20%;
+
+justify-content: left;
     
- }
+
+
+}
+    
+ 
