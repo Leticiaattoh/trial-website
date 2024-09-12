@@ -221,17 +221,18 @@ nav {
 /* } */
 
 
-.button-book2 {
+.button-book2 { 
+    border: 1px solid #008CBA;
     background-color: #009DFF;
     width: 50%;
     font-size: large;
     color: white;
     border: none;
     text-align: left;
-    padding: 12px 26px;
-    border: 1px solid transparent;
+    padding: 12px 26px; 
     color: #fff;
     margin-top: 10%;
+      
 }
 
 .second-bg {
@@ -453,13 +454,8 @@ nav {
 }
 
 .after-footer {
-    /* text-align: right; */
-    /* margin-left: 150px; */
-    /* padding-top: 160px; */
     margin-top: 170px;
-    /* padding: 5px; */
-    /* justify-content: left; */
-
+   
 
 }
 

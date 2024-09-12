@@ -1,0 +1,36 @@
+.social-button2 {
+    text-align: right;
+    margin-left: 150px;
+    padding-left: 160px;
+    margin-top: 50px;
+    padding: 5px;
+    justify-content: left;
+}
+
+.room-section1 {
+    padding: 10%;
+}
+
+.border-rooms {
+    border: 1px solid #009DFF ;
+    width: 20%;
+    background-color: #009DFF;
+}
+
+.room-container {
+    /* position: relative; */
+    display: flex;
+    gap: 2rem;
+    /* margin-right: 10%; */
+    padding: 5%;
+}
+
+.room-container h3 {
+    padding-top: 20%;
+}
+
+.room-container p{
+    padding-top: 2%;
+    justify-content: center;
+}
+
