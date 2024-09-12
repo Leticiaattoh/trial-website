@@ -36,7 +36,7 @@ nav {
 
 
 #header-pic {
-    background: url(./assets/css/image\ 3.jpg);
+    background: url(./assets/css/image_20.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -265,7 +265,7 @@ nav {
 }
 
 .room-pic1 {
-    background-image: url(./assets/css/image_18.jpg);
+    background-image: url(./assets/css/image_19.jpg);
     /* -webkit-linear-gradient(
         bottom,
         rgba(0, 0, 0, 1) 6%
@@ -281,14 +281,14 @@ nav {
 
 
 .room-pic2 {
-    background-image: url(./assets/css/image_17.jpg);
+    background-image: url(./assets/css/image_22.jpg);
     width: 100%;
     background-size: cover;
 
 }
 
 .room-pic3 {
-    background-image: url(./assets/css/image_14.jpg);
+    background-image: url(./assets/css/image_21.jpg);
     width: 100%;
     background-size: cover;
 
@@ -296,7 +296,7 @@ nav {
 }
 
 .room-pic4 {
-    background-image: url(./assets/css/image_13.jpg);
+    background-image: url(./assets/css/image_23.jpg);
     width: 100%;
     background-size: cover;
 
@@ -304,27 +304,27 @@ nav {
 
 .room-pic1 h4 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 40%;
     color: white;
 }
  .room-pic1 h2 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 2%;
     color: white;
  }
 
  .room-pic2 h4 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 40%;
     color: white;
  }
 
  .room-pic2 h2 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 2%;
     color: white;
 
@@ -333,7 +333,7 @@ nav {
 
  .room-pic3 h4 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 40%;
     color: white;
 
@@ -341,7 +341,7 @@ nav {
 
 .room-pic3 h2 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 2%;
     color: white;
 }
@@ -351,7 +351,7 @@ nav {
 
 .room-pic4 h4 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 40%;
     color: white;
 
@@ -359,7 +359,7 @@ nav {
 
 .room-pic4 h2 {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 2%;
     color: white;
 
