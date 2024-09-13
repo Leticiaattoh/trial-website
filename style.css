@@ -278,7 +278,7 @@ nav {
 }
 
 .room-pic1:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 
 }
@@ -293,7 +293,7 @@ nav {
 }
 
 .room-pic2:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 }
 
@@ -307,7 +307,7 @@ nav {
 }
 
 .room-pic3:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 }
 
@@ -321,7 +321,7 @@ nav {
 }
 
 .room-pic4:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 }
 
@@ -330,7 +330,7 @@ nav {
     transition: transform .2s;
 }
 .hover1:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 }
 
@@ -340,7 +340,7 @@ nav {
 }
 
 .hover2:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 }
 
@@ -349,7 +349,7 @@ nav {
 }
 
 .hover3:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: black;
 }
 
