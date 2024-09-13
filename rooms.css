@@ -12,7 +12,7 @@
 }
 
 .border-rooms {
-    border: 1px solid #009DFF ;
+    border: 1px solid #009DFF;
     width: 20%;
     background-color: #009DFF;
 }
@@ -29,8 +29,58 @@
     padding-top: 20%;
 }
 
-.room-container p{
+.room-container p {
     padding-top: 2%;
     justify-content: center;
 }
 
+.video1 {
+    padding: 10%;
+    /* transition: transform .2s; */
+
+}
+
+.title {
+    padding-top: 20%;
+    padding-left: 30%;
+}
+
+.booking-section {
+    /* margin-left: 50%; */
+    */
+    /* display: flex; */
+    /* gap: 5rem; */
+    width: 100%;
+
+    display: flex;
+    margin-left: 40%;
+    gap: 5rem;
+    margin: auto;
+    padding: 4rem;
+
+
+}
+
+.booking section h1 {
+    margin-left: 10%;
+
+
+}
+
+.book-here {
+    /* border:1px solid  #009DFF */
+    background-color: #009DFF;
+    width: 100%;
+    font-size: large;
+    color: white;
+    border: none;
+    text-align: right;
+    padding: 12px 26px;
+    border: 1px solid transparent;
+    color: #fff;
+    /* margin-left: 40%; */
+    margin-top: 20%;
+    margin-right: -20%;
+
+
+}

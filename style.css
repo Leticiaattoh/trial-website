@@ -57,6 +57,7 @@ nav {
     /* margin-left: 40%; */
     margin-top: 20%;
     margin-right: -20%;
+
 }
 
 
@@ -232,8 +233,11 @@ nav {
     padding: 12px 26px; 
     color: #fff;
     margin-top: 10%;
+
       
 }
+
+
 
 .second-bg {
     background-image: url(./assets/css/images_12.jpg);
@@ -267,16 +271,15 @@ nav {
 
 .room-pic1 {
     background-image: url(./assets/css/image_19.jpg);
-    /* -webkit-linear-gradient(
-        bottom,
-        rgba(0, 0, 0, 1) 6%
-        rgba(0, 0, 0, 1) 5%
-        rgba(0, 0, 0, 0.404) 100%
-    ) */
-    
     width: 100%;
     background-size: cover;
-    
+    transition: transform .2s;
+
+}
+
+.room-pic1:hover {
+    transform: scale(1.5);
+    background-color: black;
 
 }
 
@@ -285,22 +288,69 @@ nav {
     background-image: url(./assets/css/image_22.jpg);
     width: 100%;
     background-size: cover;
+    transition: transform .2s;
 
+}
+
+.room-pic2:hover {
+    transform: scale(1.5);
+    background-color: black;
 }
 
 .room-pic3 {
     background-image: url(./assets/css/image_21.jpg);
     width: 100%;
     background-size: cover;
+    transition: transform .2s;
 
 
+}
+
+.room-pic3:hover {
+    transform: scale(1.5);
+    background-color: black;
 }
 
 .room-pic4 {
     background-image: url(./assets/css/image_23.jpg);
     width: 100%;
     background-size: cover;
+    transition: transform .2s;
 
+
+}
+
+.room-pic4:hover {
+    transform: scale(1.5);
+    background-color: black;
+}
+
+
+.hover1 {
+    transition: transform .2s;
+}
+.hover1:hover {
+    transform: scale(1.5);
+    background-color: black;
+}
+
+
+.hover2 {
+    transition: transform .2s;
+}
+
+.hover2:hover {
+    transform: scale(1.5);
+    background-color: black;
+}
+
+.hover3 {
+    transition: transform .2s;
+}
+
+.hover3:hover {
+    transform: scale(1.5);
+    background-color: black;
 }
 
 .room-pic1 h4 {
